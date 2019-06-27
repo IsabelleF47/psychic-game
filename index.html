@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alphabet Predictor</title>
+</head>
+
+<body>
+    <!-- 
+        You're going to make a game just like the one in the video. Essentially, the app randomly picks a letter, and the user has to guess which letter the app chose. Put the following text on your page:
+
+        Guess what letter I'm thinking of
+        
+        Wins: (# of times the user has guessed the letter correctly)
+        
+        Losses: (# of times the user has failed to guess the letter correctly after exhausting all guesses)
+        
+        Guesses Left: (# of guesses left. This will update)
+        
+        Your Guesses So Far: (the specific letters that the user typed. Display these until the user either wins or loses.)
+        
+        When the player wins, increase the Wins counter and start the game over again (without refreshing the page).
+        
+        When the player loses, increase the Losses counter and restart the game without a page refresh (just like when the user wins).
+     -->
+    <h1>
+        Can you predict the future?
+    </h1>
+
+    <h2> Guess what letter I am thinking of?</h2>
+    <button onClick="alert('Please make a selection between a,b, and c! Thank you!')">Click me first!</button>
+    <p> Your wins: <span id="wins"></span</p>
+    <p>Your guesses so far:</p>
+    <p>Guesses left:<span id="guesses-left"></span></p> 
+
+    <button class="btn" id="a"> A</button>
+
+    <button class="btn"  id="b"> B</button> 
+
+    <button class="btn" id="c"> C</button>
+    <script src="assests/javascript/game.js"> </script> 
+    
+    </html>
